@@ -99,7 +99,7 @@ void MyEllipse( Mat img, double angle )
        angle,
        0,
        360,
-       Scalar( 255, 0, 0 ),
+       Scalar( 255, 255, 255 ),
        thickness,
        lineType );
 }
