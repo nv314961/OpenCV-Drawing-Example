@@ -160,7 +160,7 @@ void MyPolygon( Mat img )
         ppt,
         npt,
         1,
-        Scalar( 255, 255, 255 ),
+        Scalar( 0, 255, 0 ),
         lineType );
 }
 //![mypolygon]
