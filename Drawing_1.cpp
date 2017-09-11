@@ -114,7 +114,7 @@ void MyFilledCircle( Mat img, Point center )
 {
   circle( img,
       center,
-      w/32,
+      w/16,
       Scalar( 0, 0, 255 ),
       FILLED,
       LINE_8 );
