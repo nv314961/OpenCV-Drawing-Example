@@ -90,7 +90,7 @@ int main( void ){
  */
 void MyEllipse( Mat img, double angle )
 {
-  int thickness = 2;
+  int thickness = 4;
   int lineType = 8;
 
   ellipse( img,
