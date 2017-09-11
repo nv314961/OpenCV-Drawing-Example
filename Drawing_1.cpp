@@ -25,8 +25,8 @@ int main( void ){
 
   //![create_images]
   /// Windows names
-  char atom_window[] = "Drawing 1: Team 17's Custom Atom";
-  char rook_window[] = "Drawing 2: Team 17's Custom Rook";
+  char atom_window[] = "Drawing 1: Atom";
+  char rook_window[] = "Drawing 2: Rook";
 
   /// Create black empty images
   Mat atom_image = Mat::zeros( w, w, CV_8UC3 );
