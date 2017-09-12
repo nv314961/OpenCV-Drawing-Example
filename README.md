@@ -1,3 +1,7 @@
 # OpenCV-Drawing-Example
+# EC601 A2 Team 17
 
-## Member: Pillp, Nick, Tang
+## Members: Philip, Nick, Tang
+
+In this Homework 1 repository, we focused on setting up and using the openCV libraries successfully.
+We chose to implement and modify a given example to display two pictures: an atom and a rook.
