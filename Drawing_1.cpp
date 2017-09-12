@@ -7,7 +7,7 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
 
-#define w 400
+#define w 200
 
 using namespace cv;
 
@@ -90,7 +90,7 @@ int main( void ){
  */
 void MyEllipse( Mat img, double angle )
 {
-  int thickness = 2;
+  int thickness = 4;
   int lineType = 8;
 
   ellipse( img,
@@ -99,7 +99,7 @@ void MyEllipse( Mat img, double angle )
        angle,
        0,
        360,
-       Scalar( 255, 0, 0 ),
+       Scalar( 255, 255, 255 ),
        thickness,
        lineType );
 }
@@ -114,7 +114,7 @@ void MyFilledCircle( Mat img, Point center )
 {
   circle( img,
       center,
-      w/32,
+      w/16,
       Scalar( 0, 0, 255 ),
       FILLED,
       LINE_8 );
@@ -160,7 +160,7 @@ void MyPolygon( Mat img )
         ppt,
         npt,
         1,
-        Scalar( 255, 255, 255 ),
+        Scalar( 0, 255, 0 ),
         lineType );
 }
 //![mypolygon]
