@@ -3,5 +3,6 @@
 
 ## Members: Philip, Nick, Tang
 
-In this Homework 1 repository, we focused on setting up and using the openCV libraries successfully.
-We chose to implement and modify a given example to display two pictures: an atom and a rook.
+In this Homework 1 repository, we focused on setting up and using the openCV libraries (C++) successfully.
+We chose to implement and modify a sample program from a tutorial on OpenCV's website: drawing_1.cpp
+The program displays two pictures: an atom and a rook.
