@@ -3,6 +3,8 @@
  * @brief Simple sample code
  */
 
+//copyright 2017 EC602 Team17
+
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
