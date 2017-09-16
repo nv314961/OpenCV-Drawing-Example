@@ -3,6 +3,8 @@
  * @brief Simple sample code
  */
 
+//copyright 2017 EC602 Team17
+
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
@@ -27,7 +29,6 @@ int main( void ){
   /// Windows names
   char atom_window[] = "Drawing 1: Team 17's Custom Atom";
   char rook_window[] = "Drawing 2: Team 17's Custom Rook";
-
   /// Create black empty images
   Mat atom_image = Mat::zeros( w, w, CV_8UC3 );
   Mat rook_image = Mat::zeros( w, w, CV_8UC3 );
@@ -46,6 +47,14 @@ int main( void ){
   /// 1.b. Creating circles
   MyFilledCircle( atom_image, Point( w/2, w/2) );
   //![draw_atom]
+    
+    //drawing rectangles on the bottom of Atom
+    rectangle( atom_image,
+              Point( 0, 7*w/8 ),
+              Point( w, w),
+              Scalar( 0, 255, 255 ),
+              FILLED,
+              LINE_8 );
 
   /// 2. Draw a rook
   /// ------------------
