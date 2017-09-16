@@ -1,3 +1,8 @@
+//EC601 TEAM 17: Philip, Nick, Tang
+//Based off openCV tutorial
+//Requires openCV library
+//Draws a rook and an atom
+
 /**
  * @file Drawing_1.cpp
  * @brief Simple sample code
