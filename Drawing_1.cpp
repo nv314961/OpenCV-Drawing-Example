@@ -46,6 +46,7 @@ int main( void ){
   MyFilledCircle( atom_image, Point( w/2, w/2) );
   //![draw_atom]
     
+    //drawing rectangles on the bottom of Atom
     rectangle( atom_image,
               Point( 0, 7*w/8 ),
               Point( w, w),
